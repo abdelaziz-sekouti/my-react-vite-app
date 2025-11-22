@@ -16,6 +16,8 @@ export default defineConfig({
           }
         }
       }
-    }
+    },
+    // increase limit (kb) or set to Infinity to disable warning
+    chunkSizeWarningLimit: 600
   }
 })
